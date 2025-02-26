@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EAB144B5-13A8-4857-AA83-35D2C40EC8FF}"
 EndProject
@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{13AC6D5F-2F01-4670-8728-73192ACD85D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{8F22ABC3-36A4-4825-8C2F-58A3145DA2D6}"
+	ProjectSection(SolutionItems) = preProject
+		test.cs = test.cs
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MServices.CouponAPI", "MServices.CouponAPI\MServices.CouponAPI.csproj", "{E8BB9DC2-DE48-4CE5-96CE-AEAC1DB75713}"
 EndProject
